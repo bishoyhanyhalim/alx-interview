@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-""" Module for solving games """
+""" Module for solving the games"""
+
 
 def isWinner(x, nums):
-    """function that checks to task"""
+    """function that winner game"""
     if not nums or x < 1:
         return None
     max_num = max(nums)
